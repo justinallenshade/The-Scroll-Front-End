@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 70px;
+  margin: 60px;
   padding: 30px;
 }
 
@@ -50,6 +50,6 @@ body {
 #Timeline {
   border: solid 2px black;
   height: 700px;
-  width: 700px;
+  width: 880px;
   text-align: center;
 }

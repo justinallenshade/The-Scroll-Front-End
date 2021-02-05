@@ -16,7 +16,7 @@ export default function Home(props) {
                 </div>
 
                 <div id="Timeline">
-                    <p>Post</p>
+                    <h2>Timeline</h2>
                 </div>
 
                 <div id="Followers">
