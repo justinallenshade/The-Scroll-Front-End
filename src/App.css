@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #1fd9faee;
   text-align: center;
   position: relative;
@@ -42,11 +43,47 @@ body {
   width: 150px;
   display: flex;
   flex-direction: column;
+=======
+  background-color: rgba(31, 217, 250, 0.934);
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  height: 200px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Main-container {
+  border: solid 2px black;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 70px;
+  padding: 30px;
+}
+
+#Followers {
+  border: solid 2px black;
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+>>>>>>> worked on homepage design
 }
 
 #Aside {
   border: solid 2px black;
+<<<<<<< HEAD
   height: 700px;
+=======
+  height: 600px;
+>>>>>>> worked on homepage design
   width: 150px;
   display: flex;
   flex-direction: row;
@@ -56,6 +93,10 @@ body {
 #Timeline {
   border: solid 2px black;
   height: 700px;
+<<<<<<< HEAD
   width: 750px;
+=======
+  width: 700px;
+>>>>>>> worked on homepage design
   text-align: center;
 }
