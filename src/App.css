@@ -22,7 +22,7 @@ body {
 #Main-container {
   border: solid 2px #1fd9faee;
   height: 700px;
-  width: 1200px;
+  width: 1260px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
