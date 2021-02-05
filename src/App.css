@@ -45,6 +45,7 @@ body {
   flex-direction: column;
 =======
   background-color: rgba(31, 217, 250, 0.934);
+  text-align: center;
 }
 
 #nav-bar {
