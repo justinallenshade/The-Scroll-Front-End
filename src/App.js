@@ -1,8 +1,8 @@
-import "./App.css";
-import React from "react";
-import { Route } from "react-router-dom";
-import Home from "./Components/Home";
+import './App.css';
+import React from 'react'
+import { Route } from 'react-router-dom'
 
+import Home from './Components/Home'
 import AccCreate from './Components/AccountCreate'
 
 function App() {
