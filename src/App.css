@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(31, 217, 250, 0.934);
+  background-color: #1fd9faee;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 #Main-container {
-  border: solid 2px black;
+  border: solid 2px #1fd9faee;
   height: 700px;
   width: 1200px;
   display: flex;
@@ -32,7 +32,7 @@ body {
 
 #Followers {
   border: solid 2px black;
-  height: 100px;
+  height: 130px;
   width: 150px;
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@ body {
 
 #Aside {
   border: solid 2px black;
-  height: 600px;
+  height: 700px;
   width: 150px;
   display: flex;
   flex-direction: row;
