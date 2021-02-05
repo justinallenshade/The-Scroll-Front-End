@@ -3,7 +3,7 @@ import React from 'react';
 export default function Login(props) {
     return (
         <div>
-            <h1>Login</h1>
+            <h1>Create account</h1>
             <form id="loginForm">
                 <input type="text" placeholder="ussername"></input>
                 <input type="email" placeholder="email"></input>
