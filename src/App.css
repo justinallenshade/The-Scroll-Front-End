@@ -32,10 +32,10 @@ body {
 
 #Followers {
   border: solid 2px black;
-  height: 130px;
+  height: 155px;
   width: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #Aside {
