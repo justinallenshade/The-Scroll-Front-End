@@ -4,15 +4,9 @@ export default function Home(props) {
     return (
         <div>
             <div id="nav-bar">
-<<<<<<< HEAD
                 {/* <a href="#">Profile</a>
                 <a href="#">Categories</a>
                 <a href="#">Profile URL:</a> */}
-=======
-                <p>Header</p>
-                <p>Categories</p>
-                <p>URL:wlknevknve</p>
->>>>>>> worked on homepage design
             </div>
 
             <div id="Main-container">
@@ -21,7 +15,7 @@ export default function Home(props) {
                     <h2>Aside</h2>
                 </div>
 
-<<<<<<< HEAD
+
                 <div id="Timeline" class="list-group overflow-auto">
                 <a href="www.google.com" class="list-group-item list-group-item-action active" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
@@ -60,14 +54,7 @@ export default function Home(props) {
                 <div id="Followers">
                 <h2>Followers</h2>
                 <h2>Following</h2>
-=======
-                <div id="Timeline">
-                    <p>Post</p>
-                </div>
 
-                <div id="Followers">
-                <h2>Followers</h2>
->>>>>>> worked on homepage design
                 </div>
             </div>
 

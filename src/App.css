@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   background-color: #1fd9faee;
   text-align: center;
   position: relative;
@@ -43,7 +42,6 @@ body {
   width: 150px;
   display: flex;
   flex-direction: column;
-=======
   background-color: rgba(31, 217, 250, 0.934);
   text-align: center;
 }
@@ -75,16 +73,11 @@ body {
   width: 150px;
   display: flex;
   flex-direction: row;
->>>>>>> worked on homepage design
 }
 
 #Aside {
   border: solid 2px black;
-<<<<<<< HEAD
   height: 700px;
-=======
-  height: 600px;
->>>>>>> worked on homepage design
   width: 150px;
   display: flex;
   flex-direction: row;
@@ -94,10 +87,6 @@ body {
 #Timeline {
   border: solid 2px black;
   height: 700px;
-<<<<<<< HEAD
   width: 750px;
-=======
-  width: 700px;
->>>>>>> worked on homepage design
   text-align: center;
 }
