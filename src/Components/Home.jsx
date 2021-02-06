@@ -4,9 +4,9 @@ export default function Home(props) {
     return (
         <div>
             <div id="nav-bar">
-                <a href="#">Header</a>
+                {/* <a href="#">Profile</a>
                 <a href="#">Categories</a>
-                <a href="#">URL:</a>
+                <a href="#">Profile URL:</a> */}
             </div>
 
             <div id="Main-container">
@@ -21,6 +21,7 @@ export default function Home(props) {
 
                 <div id="Followers">
                 <h2>Followers</h2>
+                <h2>Following</h2>
                 </div>
             </div>
 
