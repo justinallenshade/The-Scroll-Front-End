@@ -56,8 +56,7 @@ export default function Home(props) {
 </section>
 </div>
 </div>  
-
-      </div>
+</div>
 
                
             
