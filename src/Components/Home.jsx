@@ -4,9 +4,9 @@ export default function Home(props) {
     return (
         <div>
             <div id="nav-bar">
-                <p>Header</p>
-                <p>Categories</p>
-                <p>URL:wlknevknve</p>
+                <a href="#">Header</a>
+                <a href="#">Categories</a>
+                <a href="#">URL:</a>
             </div>
 
             <div id="Main-container">
