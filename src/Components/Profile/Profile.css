@@ -1,0 +1,46 @@
+.page {
+  background-color: navajowhite;
+  text-transform: uppercase;
+}
+.container {
+  border: 2px solid black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  /* border-radius: 75px; */
+}
+.app-name {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+}
+.username {
+  text-align: center;
+  font-size: 30px;
+  /* margin: 0 auto; */
+}
+.all-posts {
+  border: 2px solid black;
+  margin: 0 200px;
+  height: 700px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+  display: ;
+}
+.my-post {
+  color: blac;
+  border: 2px solid black;
+  margin: 10px 10px;
+  height: 20%;
+}
+.new-post {
+  text-align: left;
+  border: 2px solid black;
+  text-transform: uppercase;
+  display: inline-flex;
+  margin: 20px;
+  padding: 10px;
+}
