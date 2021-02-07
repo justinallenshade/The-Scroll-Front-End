@@ -7,12 +7,15 @@ body {
 .overflow-auto {
   width: 500px;
   height: 500px;
+<<<<<<< HEAD
 }
 
 #loginForm {
   display: inline-flex;
   flex-direction: column;
   width: 200px;
+=======
+>>>>>>> added bootsrap cdn with scrolling timeline
 }
 
 #nav-bar {

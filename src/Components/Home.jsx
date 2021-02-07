@@ -15,7 +15,6 @@ export default function Home(props) {
                     <h2>Aside</h2>
                 </div>
 
-
                 <div id="Timeline" class="list-group overflow-auto">
                 <a href="www.google.com" class="list-group-item list-group-item-action active" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
