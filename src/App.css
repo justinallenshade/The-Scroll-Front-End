@@ -1,6 +1,12 @@
 body {
   background-color: #1fd9faee;
   text-align: center;
+  position: relative;
+}
+
+.overflow-auto {
+  width: 500px;
+  height: 500px;
 }
 
 #loginForm {
@@ -50,6 +56,6 @@ body {
 #Timeline {
   border: solid 2px black;
   height: 700px;
-  width: 880px;
+  width: 750px;
   text-align: center;
 }
