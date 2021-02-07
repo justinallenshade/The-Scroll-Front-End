@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-export default function Account(props) {
+export default function Login(props) {
     return (
         <div>
-            <h1>Create account</h1>
+            <h1>Login</h1>
             <form id="loginForm">
                 <input type="text" placeholder="ussername"></input>
-                <input type="email" placeholder="email"></input>
                 <input type="password" placeholder="Password"></input>
-                <input type="submit" value="Submit"></input>
-                <Link to={'/login'} className='accountButton'><button>Back</button></Link>
+                <input type="submit" className='loginButton' value="Submit"></input>
+                <Link to={'/creatacc'} className='loginButton'><button>Create Account</button></Link>
             </form>
         </div>
     );
