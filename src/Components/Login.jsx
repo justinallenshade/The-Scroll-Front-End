@@ -5,8 +5,8 @@ export default function Login(props) {
     return (
         <div>
             <h1>Login</h1>
-            <form id="loginForm">
-                <input type="text" placeholder="ussername"></input>
+            <form action="/login/" method="get" id="loginForm">
+                <input type="text" placeholder="username"></input>
                 <input type="password" placeholder="Password"></input>
                 <input type="submit" className='loginButton' value="Submit"></input>
                 <Link to={'/creatacc'} className='loginButton'><button>Create Account</button></Link>

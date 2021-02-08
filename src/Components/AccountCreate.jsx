@@ -5,7 +5,7 @@ export default function Account(props) {
     return (
         <div>
             <h1>Create account</h1>
-            <form id="loginForm">
+            <form action="/login/" method="post" id="loginForm">
                 <input type="text" placeholder="ussername"></input>
                 <input type="email" placeholder="email"></input>
                 <input type="password" placeholder="Password"></input>
