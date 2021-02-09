@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Home(props) {
     return (
-      <div>
-            <div id="main-container">
+        <div>
+           <div id="main-container">
   <header>
     <div id="img-block">
-        <img src="https://www.nme.com/wp-content/uploads/2016/09/2013NickOffermanPA-14923554290713-696x464.jpg" alt="mugshot" id="profile-photo"/>
+        <img src="https://www.nme.com/wp-content/uploads/2016/09/2013NickOffermanPA-14923554290713-696x464.jpg" alt="mug shot" id="profile-photo"/>
     </div>
 
     <div id="blog-info">
@@ -57,11 +57,6 @@ export default function Home(props) {
 </div>
 </div>  
 </div>
-
-               
-            
-
-      
     );
 }
 
