@@ -1,61 +1,127 @@
-body {
-  background-color: #1fd9faee;
-  text-align: center;
-  position: relative;
+#main-container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: row;
 }
 
-.overflow-auto {
-  width: 500px;
-  height: 500px;
+header {
+  border: 2px solid black;
+  margin: 10px;
 }
 
-#loginForm {
-  display: inline-flex;
-  flex-direction: column;
-  width: 200px;
+#img-block {
+  border: 2px solid white;
+  border-radius: 60%;
+  height: 250px;
+  width: 230px;
+  margin: 35px;
 }
 
-#nav-bar {
+header {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+#img-block {
+  border: 2px solid white;
+  border-radius: 60%;
+  height: 250px;
+  width: 230px;
+  margin: 35px;
+}
+
+#profile-photo {
+  border-radius: 60%;
+  height: 240px;
+  width: 240px;
+  margin-right: 10px;
+}
+
+#blog-info {
+  border: 1px solid black;
+  height: 150px;
+  width: 190px;
+  margin: 35px;
+  padding-right: 25px;
   display: flex;
   flex-direction: column;
-  border: solid 2px black;
-  height: 200px;
-  width: 800px;
-  margin: 0 auto;
-  text-align: center;
+  justify-content: center;
 }
 
-#Main-container {
-  border: solid 2px #1fd9faee;
-  height: 700px;
-  width: 1260px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+#follow-count {
+  border: 1px solid black;
+  height: 250px;
+  width: 150px;
+  text-align: center;
   margin: 60px;
-  padding: 30px;
+  padding: 10px;
 }
 
-#Followers {
-  border: solid 2px black;
-  height: 155px;
-  width: 150px;
+#content-wrap {
+  margin: 10px;
+  border: 2px solid black;
+  height: 850px;
+  width: 990px;
+  overflow: auto;
+  margin: 50px;
+}
+
+section {
+  border: 2px solid black;
+  height: 265px;
+  width: 650px;
+  padding: 10px;
+  margin: 150px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+h1 {
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-#Aside {
-  border: solid 2px black;
-  height: 700px;
-  width: 150px;
-  display: flex;
-  flex-direction: row;
+h2 {
   text-align: center;
 }
 
-#Timeline {
-  border: solid 2px black;
-  height: 700px;
-  width: 750px;
-  text-align: center;
+img {
+  height: 180px;
+  width: 180px;
+}
+
+#text1 {
+  height: 170px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#text2 {
+  height: 170px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#text3 {
+  height: 170px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#text4 {
+  height: 170px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+ul {
+  list-style: none;
 }
