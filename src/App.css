@@ -2,36 +2,6 @@
   border: 2px solid black;
   display: flex;
   justify-content: row;
-<<<<<<< HEAD
-}
-
-<<<<<<< HEAD
-header {
-  border: 2px solid black;
-  margin: 10px;
-}
-
-#img-block {
-  border: 2px solid white;
-  border-radius: 60%;
-  height: 250px;
-  width: 230px;
-  margin: 35px;
-=======
-.overflow-auto {
-  width: 500px;
-  height: 500px;
-<<<<<<< HEAD
-}
-
-#loginForm {
-  display: inline-flex;
-  flex-direction: column;
-  width: 200px;
-=======
->>>>>>> added bootsrap cdn with scrolling timeline
->>>>>>> added bootsrap cdn with scrolling timeline
-=======
 }
 
 header {
@@ -45,7 +15,19 @@ header {
   height: 250px;
   width: 230px;
   margin: 35px;
->>>>>>> update to the front-end files
+}
+
+header {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+#img-block {
+  border: 2px solid white;
+  border-radius: 60%;
+  height: 250px;
+  width: 230px;
+  margin: 35px;
 }
 
 #profile-photo {
