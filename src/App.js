@@ -11,18 +11,22 @@ function App() {
   const [posts, setPosts] = useState([]);
   const http = "https://the-scroll-back-end.herokuapp.com/post";
 
-  const getPosts = async () => {
-    await fetch(http)
-    .then(res => res.json())
-    .then(res => {
-      setPosts(res)
-    })
-
+  const getPosts = () => {
+      fetch(http)
+      .then((res => res.json()))
+      .then(res => {
+        console.log(res)
+        setPosts(res)
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
 
   useEffect(() => {
     getPosts();
   }, []);
+
 
   return (
     <div className="App">
