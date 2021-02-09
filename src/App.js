@@ -17,6 +17,7 @@ function App() {
     .then(res => {
       setPosts(res)
     })
+
   };
 
   useEffect(() => {
@@ -27,7 +28,6 @@ function App() {
     <div className="App">
       <div>
         <h1>Welcome to the scroll</h1>
-
         <Route path="/" exact render={() => <Home />} />
         <Route path="/creatacc" exact render={() => <AccCreate />} />
         <Route path="/Login" exact render={() => <Login />} />
