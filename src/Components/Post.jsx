@@ -1,5 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
 import TimeStamp from "./Timestamp";
+=======
+>>>>>>> update
 
 function Post({ post }) {
   return (

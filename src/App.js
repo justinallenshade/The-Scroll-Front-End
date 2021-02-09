@@ -1,9 +1,9 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
-// import Home from "./Components/Home";
-// import AccCreate from "./Components/AccountCreate";
-// import Login from "./Components/Login";
+import Home from "./Components/Home";
+import AccCreate from "./Components/AccountCreate";
+import Login from "./Components/Login";
 import Header from "./components/Header";
 import Posts from "./components/Posts";
 import CreatePost from "./components/CreatPost";
@@ -26,14 +26,15 @@ function App() {
   };
   useEffect(() => {
     getPosts();
-  }, []);
+  });
 
   return (
     <div className="App">
       <div>
-        {/* <Route path="/" exact render={() => <Home />} /> */}
-        {/* <Route path="/creatacc" exact render={() => <AccCreate />} /> */}
-        {/* <Route path="/Login" exact render={() => <Login />} /> */}
+        <Route path="/" exact render={() => <Home />} /> 
+        <Route path="/creatacc" exact render={() => <AccCreate />} />
+        <Route path="/Login" exact render={() => <Login />} />
+        
         <Header showModal={showModal} setShowModal={setShowModal} />
         <CreatePost showModal={showModal} />
         <Route path="/posts" exact render={() => <Posts posts={posts} />} />
