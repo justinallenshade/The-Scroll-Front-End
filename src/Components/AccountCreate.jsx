@@ -5,7 +5,7 @@ export default function Account(props) {
     return (
         <div>
             <h1>Create account</h1>
-            <form action="https://the-scroll-back-end.herokuapp.com/login/" method="post" id="loginForm">
+            <form action="https://the-scroll-back-end.herokuapp.com/login/create" method="post" id="loginForm">
                 <input type="text" placeholder="ussername" name="username"></input>
                 <input type="email" placeholder="email" name="email"></input>
                 <input type="password" placeholder="Password" name="password"></input>
