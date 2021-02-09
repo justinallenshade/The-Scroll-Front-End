@@ -1,5 +1,9 @@
 import React from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Container } from "react";
+>>>>>>> update to the front-end files
 =======
 import { Container } from "react";
 >>>>>>> update to the front-end files
