@@ -1,6 +1,9 @@
 import React from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import TimeStamp from "./Timestamp";
+=======
+>>>>>>> update
 =======
 >>>>>>> update
 
