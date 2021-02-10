@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# The Scroll 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# App Description
 
-## Available Scripts
+The Scroll is a blogging site where users can create, read, update, and delete their own posts. 
 
-In the project directory, you can run:
+## Instructions
 
-### `npm start`
+1. Fork and clone this repository.
+2. On your terminal, navigate to the file in your directory.
+3. Use the command, `npm start` to open your local host in the browser.
+4. Use the command, `code .` to open your files in the text editor of your choice.(please include the space between code and the period)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- HTML5 was used to frame the website, CSS to style the website, JavaScript for some interactivity,and the React library for UI. 
+- Mongo is used to create the database, Express handles the multiple http request for the URL, Node for the server functionality, and  Heroku for deployment.
 
-### `npm test`
+Link to the project website: http://www.the-scroll-front-end.herokuapp.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Project Issues
 
-### `npm run build`
+- We had trouble keeping our branches synced, and we had a difficult time with our form acceptung PUT requests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Your Error
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- CONFLICT (content): Merge conflict in package.json. error: Failed to merge in the changes. Patch failed at 0001 updating files.
+- src/components/home.jsx line 21:5 react hook useeffect has a missing dependency: 'getposts'. either include it or remove the dependency array.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Why you think you're getting this error
 
-### `npm run eject`
+- Originally, we did not use the recommended gitflow but we found out that not committing often was one issue and syncing up branches that are similar was another.
+- We were not completely sure about the issue with the missing dependency which was causing an infinite loop. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Everything you've tried
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- We had to git add and git rebase often until we fixed all errors. 
+- We changed our git flow to what was recommended by our instructors.
+- We removed a variable called getPosts with another called htttp in the useEffect hook. 
+- Plenty of Google searches 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## User stories
+- As a user I want to be able to post my digital journal.
+- As a user I want to view other peoples posts.
+- As a user I want to be able to delete or update my post if I don’t like it anymore.
+- As a user I want to be able to see my follower count.
+- As a user I would like to be able to use images in my posts.
 
-## Learn More
+## 1. Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![wireframe 1](<blockquote class="imgur-embed-pub" lang="en" data-id="a/Yqmo8rw" data-context="false" ><a href="//imgur.com/a/Yqmo8rw"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 2. MVP Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- As a user, I want a timeline feature.
+- As a user, I want a profile. 
 
-### Analyzing the Bundle Size
+## 3. Stretch Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- As a programmer, I want to implement account creation.
+- As a programmer, I want to implement the follower/following feature.
+- As a programmer, I want to implement the DM feature.
+- As a designer, I want to implement beautiful UI.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
