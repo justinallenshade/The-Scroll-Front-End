@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import Posts from "./Posts"
 
 export default function Home(props) {
-  let posts =[]
+  const [posts, setPosts] = useState([]);
   let http = "https://the-scroll-back-end.herokuapp.com/post";
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   useEffect(() => {
     const getPosts = () => {
       fetch(http)
@@ -21,25 +19,6 @@ export default function Home(props) {
     };
     getPosts();
   },[http]);
-=======
-=======
->>>>>>> fixing loop of calls
-  
-  fetch(http)
-    .then((res) => res.json())
-    .then((res) => {
-      console.log(res);
-      posts = (res);
-    })
-    .catch((error) => {
-      console.log(error);
-    });
-  
-
-<<<<<<< HEAD
->>>>>>> fixing loop of calls
-=======
->>>>>>> fixing loop of calls
 
 
 
@@ -61,15 +40,7 @@ export default function Home(props) {
 
           <div id = "update-post">
             <h3 className="crud-heading">Edit post</h3>
-<<<<<<< HEAD
-<<<<<<< HEAD
             <form action="https://the-scroll-back-end.herokuapp.com/post?_method=PUT" method="post" className="postForm">
-=======
-            <form action="https://the-scroll-back-end.herokuapp.com/post?_method=PUT" method="post" id="postForm">
->>>>>>> fixing loop of calls
-=======
-            <form action="https://the-scroll-back-end.herokuapp.com/post?_method=PUT" method="post" id="postForm">
->>>>>>> fixing loop of calls
                 <input type="text" placeholder="id" name="id"></input>
                 <input type="text" placeholder="title" name="title"></input>
                 <input type="text" placeholder="body" name="body"></input>
@@ -84,15 +55,7 @@ export default function Home(props) {
                 <input type="text" placeholder="ID" name="id"></input>
                 <input type="submit" className='loginButton' value="Submit"></input>
             </form>
-<<<<<<< HEAD
-<<<<<<< HEAD
           </div>
-=======
-          </div> */}
->>>>>>> edit display
-=======
-          </div> */}
->>>>>>> edit display
         </header>
 
         <div id="content-wrap">
