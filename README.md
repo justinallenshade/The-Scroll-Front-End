@@ -48,7 +48,12 @@ Link to the project website: http://www.the-scroll-front-end.herokuapp.com/
 - As a user I would like to be able to use images in my posts.
 
 ## 1. Design
-![image](<blockquote class="imgur-embed-pub" lang="en" data-id="a/Yqmo8rw" data-context="false" ><a href="//imgur.com/a/Yqmo8rw"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+
+
+![Screenshot from 2021-02-01 15-43-48](https://user-images.githubusercontent.com/74937340/107490735-e5fbb980-6b4f-11eb-8260-af1f0fbd134d.png)
+
+![Screenshot from 2021-02-10 03-27-44](https://user-images.githubusercontent.com/74937340/107490807-fc097a00-6b4f-11eb-966f-7352eddec553.png)
+
 
 
 ## 2. MVP Goals
