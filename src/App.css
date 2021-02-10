@@ -13,33 +13,6 @@ header {
   margin: 10px;
 }
 
-#img-block {
-  border: 2px solid white;
-  border-radius: 60%;
-  height: 250px;
-  width: 230px;
-  margin: 35px;
-}
-
-header {
-  border: 2px solid black;
-  margin: 10px;
-}
-
-#img-block {
-  border: 2px solid white;
-  border-radius: 60%;
-  height: 250px;
-  width: 230px;
-  margin: 35px;
-}
-
-#profile-photo {
-  border-radius: 60%;
-  height: 240px;
-  width: 240px;
-  margin-right: 10px;
-}
 
 #blog-info {
   border: 1px solid black;
@@ -70,14 +43,6 @@ header {
   margin: 50px;
 }
 
-section {
-  border: 2px solid black;
-  height: 265px;
-  width: 650px;
-  padding: 10px;
-  margin: 150px;
-  box-shadow: 10px 10px 5px grey;
-}
 
 h1 {
   text-align: center;
@@ -85,50 +50,20 @@ h1 {
   flex-direction: column;
 }
 
-h2 {
+
+.card-body {
+  border-top: solid 2px black;
+  display:flex;
+  flex-flow: column wrap;
+}
+.timeStamp{
+  align-self: flex-end;
+}
+.card-title {
+  font-size: 25px;
   text-align: center;
 }
 
-img {
-  height: 180px;
-  width: 180px;
-}
-
-#text1 {
-  height: 170px;
-  width: 250px;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
-#text2 {
-  height: 170px;
-  width: 250px;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
-#text3 {
-  height: 170px;
-  width: 250px;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
-#text4 {
-  height: 170px;
-  width: 250px;
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
-ul {
-  list-style: none;
-}
 .date-input {
   display: none;
 }

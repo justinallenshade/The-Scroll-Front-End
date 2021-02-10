@@ -15,7 +15,7 @@ function Timestamp(props) {
         className="date-input"
         type="text"
         value={displayTodaysDate}
-        readOnly="true"
+        readOnly={true}
       />
       {dateString}
     </div>
