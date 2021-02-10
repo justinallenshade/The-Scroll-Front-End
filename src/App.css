@@ -125,3 +125,6 @@ img {
 ul {
   list-style: none;
 }
+.date-input {
+  display: none;
+}
