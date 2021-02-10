@@ -75,7 +75,11 @@ export default function Home(props) {
                 <input type="submit" className='loginButton' value="Submit"></input>
             </form>
 <<<<<<< HEAD
+<<<<<<< HEAD
           </div>
+=======
+          </div> */}
+>>>>>>> edit display
 =======
           </div> */}
 >>>>>>> edit display
