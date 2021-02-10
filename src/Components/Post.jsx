@@ -1,15 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-import { Container } from "react";
->>>>>>> update to the front-end files
-=======
-import { Container } from "react";
->>>>>>> update to the front-end files
+import TimeStamp from "./Timestamp";
 
 function Post({ post }) {
- return (
+  return (
     <div className="card-body">
       <div>
         <p className="card-text">{post.username}</p>
@@ -20,8 +13,12 @@ function Post({ post }) {
       <div>
         <p className="card-text">{post.body}</p>
       </div>
+      <div>
+        <p>Created on:</p>
+        <TimeStamp />
+      </div>
     </div>
-
   );
- }
+}
+
 export default Post;
