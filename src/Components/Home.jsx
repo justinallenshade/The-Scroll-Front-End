@@ -55,7 +55,11 @@ export default function Home(props) {
                 <input type="text" placeholder="ID" name="id"></input>
                 <input type="submit" className='loginButton' value="Submit"></input>
             </form>
+<<<<<<< HEAD
           </div>
+=======
+          </div> */}
+>>>>>>> edit display
         </header>
 
         <div id="content-wrap">
