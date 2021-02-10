@@ -4,18 +4,18 @@ import TimeStamp from "./Timestamp";
 function Post({ post }) {
   return (
     <div className="card-body">
-      <div>
-        <p className="card-text">{post.username}</p>
-      </div>
-      <div>
-        <p className="card-text">id: {post._id}</p>
-      </div>
-      <div>
-        <h5 className="card-title">{post.title}</h5>
-      </div>
-      <div>
+      <div className="timeStamp">
         <p>Created on:</p>
         <TimeStamp />
+      </div>
+      <div>
+        <p className="card-text">username: {post.username}</p>
+      </div>
+      <div>
+        <p className="card-text">post id: {post._id}</p>
+      </div>
+      <div>
+        <p className="card-title">{post.title}</p>
       </div>
       <div>
         <p className="card-text">{post.body}</p>
