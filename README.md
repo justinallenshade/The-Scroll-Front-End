@@ -49,9 +49,11 @@ Link to the project website: http://www.the-scroll-front-end.herokuapp.com/
 
 ## 1. Design
 
+
 ![Screenshot from 2021-02-01 15-43-48](https://user-images.githubusercontent.com/74937340/107490735-e5fbb980-6b4f-11eb-8260-af1f0fbd134d.png)
 
 ![Screenshot from 2021-02-10 03-27-44](https://user-images.githubusercontent.com/74937340/107490807-fc097a00-6b4f-11eb-966f-7352eddec553.png)
+
 
 
 ## 2. MVP Goals
