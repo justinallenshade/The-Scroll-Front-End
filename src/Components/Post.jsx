@@ -1,11 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import TimeStamp from "./Timestamp";
-=======
->>>>>>> update
-=======
->>>>>>> update
 
 function Post({ post }) {
   return (
@@ -14,14 +8,17 @@ function Post({ post }) {
         <p className="card-text">{post.username}</p>
       </div>
       <div>
-        <h5 className="card-title">{post.title}</h5>
+        <p className="card-text">id: {post._id}</p>
       </div>
       <div>
-        <p className="card-text">{post.body}</p>
+        <h5 className="card-title">{post.title}</h5>
       </div>
       <div>
         <p>Created on:</p>
         <TimeStamp />
+      </div>
+      <div>
+        <p className="card-text">{post.body}</p>
       </div>
     </div>
   );

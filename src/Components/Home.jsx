@@ -1,23 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Posts from "./Posts"
 
 export default function Home(props) {
+  const [posts, setPosts] = useState([]);
+  let http = "https://the-scroll-back-end.herokuapp.com/post";
+
+  const getPosts = () => {
+    fetch(http)
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        setPosts(res);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+  useEffect(() => {
+    getPosts();
+  });
+
+
+
   return (
     <div>
       <div id="main-container">
         <header>
-          <div id="img-block">
-            <img
-              src="https://www.nme.com/wp-content/uploads/2016/09/2013NickOffermanPA-14923554290713-696x464.jpg"
-              alt="mug shot"
-              id="profile-photo"
-            />
+
+          <div id = "create-post">
+            <h3 className="crud-heading">Create post</h3>
+            <form action="https://the-scroll-back-end.herokuapp.com/post" method="post" id="postForm">
+                <input type="text" placeholder="username" name="username"></input>
+                <input type="text" placeholder="title" name="title"></input>
+                <input type="text" placeholder="body" name="body"></input>
+                <input type="text" placeholder="category" name="category"></input>
+                <input type="submit" className='loginButton' value="Submit"></input>
+            </form>
           </div>
+
+          <div id = "update-post">
+            <h3 className="crud-heading">Edit post</h3>
+            <form action="https://the-scroll-back-end.herokuapp.com/post" method="put" id="postForm">
+                <input type="text" placeholder="id" name="id"></input>
+                <input type="text" placeholder="title" name="title"></input>
+                <input type="text" placeholder="body" name="body"></input>
+                <input type="text" placeholder="category" name="category"></input>
+                <input type="submit" className='loginButton' value="Submit"></input>
+            </form>
+          </div>
+
+          {/* <div id = "delete-post">
+            <h3 className="crud-heading">Create post</h3>
+            <form action="https://the-scroll-back-end.herokuapp.com/" method="delete" id="postForm">
+                <input type="text" placeholder="title" name="title"></input>
+                <input type="text" placeholder="category" name="category"></input>
+                <input type="submit" className='loginButton' value="Submit"></input>
+            </form>
+          </div> */}
 
           <div id="blog-info">
             <ul>
-              <li>I do woodwork and drink lagavulin whiskey.</li>
-              <br />
               <li>Name: Ron Swanson</li>
+              <li>I do woodwork and drink lagavulin whiskey.</li>
               <li>Location: Pawnee, IN</li>
               <li>Joined: Jan, 10, 2021</li>
             </ul>
@@ -25,11 +69,8 @@ export default function Home(props) {
 
           <div id="follow-count">
             <h3>Followers</h3>
-            <p>150</p>
             <h3>Following</h3>
-            <p>300,000</p>
             <h3>Posts</h3>
-            <p>100</p>
           </div>
         </header>
 
@@ -37,50 +78,10 @@ export default function Home(props) {
           <h1>
             <u>The Scroll TimeLine</u>
           </h1>
-          <section>
-            <h2>Title1</h2>
-            <img src="https://picsum.photos/200/200" alt="" />
-            <div id="text1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> In
-              ipsa, reprehenderit, error, harum perspiciatis cumque ipsam
-              officiis omnis voluptatibus <br /> accusantium deleniti veniam
-              consequatur corporis placeat quas consectetur exercitationem fuga
-              non?
-            </div>
-          </section>
-
-          <section>
-            <h2>Title2</h2>
-            <img src="https://picsum.photos/200/200" alt="" />
-            <div id="text2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
-              Minus accusamus quidem alias culpa tempore est officia id iure
-              totam esse, odit perferendis <br /> dolore placeat, laboriosam
-              consequuntur veritatis nihil ea aut.
-            </div>
-          </section>
-
-          <section>
-            <h2>Title3</h2>
-            <img src="https://picsum.photos/200/200" alt="" />
-            <div id="text3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />{" "}
-              Cum laborum ex nisi reiciendis culpa accusamus, deserunt dicta
-              assumenda eum ab itaque dolore <br /> totam nihil ducimus quod
-              ipsum amet soluta aut.
-            </div>
-          </section>
-
-          <section>
-            <h2>Title4</h2>
-            <img src="https://picsum.photos/200/200" alt="" />
-            <div id="text4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />{" "}
-              Corrupti omnis cupiditate inventore quidem tenetur nostrum sunt
-              ut, labore nesciunt quod officiis <br /> at, asperiores, delectus
-              quaerat distinctio voluptates mollitia. Quod, distinctio.
-            </div>
-          </section>
+        <div>
+          <Posts posts={posts}/>
+        </div>
+        
         </div>
       </div>
     </div>
